@@ -1,0 +1,6 @@
+{
+  "name": "Neon Breakout",
+  "description": "A fast-paced dark neon arcade brick breaker with responsive paddle controls, vibrant destructible bricks, dynamic physics, power-ups, retro audio synthesis, and high score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
