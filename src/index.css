@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-arcade {
+  font-family: 'Orbitron', monospace, sans-serif;
+}
+
+.font-mono-nums {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom retro scanline texture */
+.retro-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 38, 0) 50%,
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Glowing text and shadow helpers */
+.neon-glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.7), 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+.neon-glow-pink {
+  text-shadow: 0 0 10px rgba(255, 0, 119, 0.7), 0 0 20px rgba(255, 0, 119, 0.4);
+}
+
+.neon-glow-yellow {
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.7), 0 0 20px rgba(255, 230, 0, 0.4);
+}
+
+.neon-box-cyan {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.35), inset 0 0 10px rgba(0, 240, 255, 0.15);
+}
+
+.neon-box-pink {
+  box-shadow: 0 0 15px rgba(255, 0, 119, 0.35), inset 0 0 10px rgba(255, 0, 119, 0.15);
+}
